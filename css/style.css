@@ -43,7 +43,7 @@ html {
     width: 100%;
     z-index: -1;
     opacity: .87;
-    top: 0;
+    top: -1px;
     left: 0;
 }
 
@@ -253,6 +253,7 @@ box-shadow: 3px 3px 10px grey; */
     font-size: 1.4rem;
     padding: 12px 0px;
     text-shadow: 0px 0px 4px rgb(78,78,78);
+    text-align: center;
 }
 
 h5 {
