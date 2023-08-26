@@ -1,0 +1,102 @@
+.regestration {
+    display: block;
+    margin: 12px auto;
+    /* width: auto; */
+}
+
+.enquiry {
+    display: block;
+    margin: 12px auto;
+    /* width: auto; */
+}
+
+#tarea {
+    padding: 5px;
+
+}
+
+.form-items {
+    display: block;
+    margin: 22px auto;
+}
+
+.form-items1 {
+    display: block;
+    margin: 22px auto;
+}
+
+#h-css {
+    font-size: 1.2rem;
+    font-family: initial;
+}
+
+#kalma {
+    font-size: 1.1rem;
+    font-family: initial;
+}
+
+/* #page1::before {
+    height: 164%;
+} */
+.btn2 {
+    display: block;
+    margin: 12px auto;
+}
+
+.navbar ul li {
+    font-size: 13px;
+}
+
+.left {
+    left: 0;
+    margin: 0 11px;
+}
+
+.navbar ul {
+    justify-content: center;
+}
+
+@keyframes serch {
+    from {
+        width: 39px;
+        font-size: 10px;
+    }
+
+    to {
+        width: 49px;
+        font-size: 10px;
+
+
+    }
+
+}
+
+#src {
+    width: 44px;
+    height: 17px;
+    font-size: 11px;
+}
+
+h5{
+    font-size: 8px;
+    width: 70px;
+}
+
+.it2{
+    display: block;
+    margin: auto;
+    width: auto;
+
+}
+
+#reg{
+    margin: 9px;
+    font-size: 1.1rem;
+    text-shadow: 0px 0px 4px rgb(78, 78, 78);
+}
+
+#fed{
+    margin: 9px;
+    font-size: 1.1rem;
+    text-shadow: 0px 0px 4px rgb(78, 78, 78);
+}
