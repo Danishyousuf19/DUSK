@@ -1,19 +1,19 @@
 .regestration {
     display: block;
     margin: 12px auto;
-    /* width: auto; */
+    width: 28rem;
     background-color: rgb(220, 243,243);
 }
 
 .enquiry {
     display: block;
     margin: 12px auto;
-    /* width: auto; */
+    width: 28rem;
     background-color: rgb(220, 243,243);
 }
 
 #tarea {
-    padding: 5px;
+    padding: 1px;
 
 }
 
@@ -26,14 +26,17 @@
     display: block;
     margin: 22px auto;
 }
+.form-box{
+    flex-direction: column;
+}
 
 #h-css {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: initial;
 }
 
 #kalma {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-family: initial;
 }
 
@@ -60,13 +63,13 @@
 
 @keyframes serch {
     from {
-        width: 39px;
-        font-size: 10px;
+        width: 40px;
+        font-size: 12px;
     }
 
     to {
-        width: 49px;
-        font-size: 10px;
+        width: 100px;
+        font-size: 12px;
 
 
     }
@@ -80,8 +83,8 @@
 }
 
 h5{
-    font-size: 8px;
-    width: 70px;
+    font-size: 12px;
+    /* width: 70px; */
 }
 
 .it{
@@ -101,4 +104,7 @@ h5{
     margin: 9px;
     font-size: 1.1rem;
     text-shadow: 0px 0px 4px rgb(78, 78, 78);
+}
+.tbw{
+width: 25em;
 }

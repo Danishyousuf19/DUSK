@@ -1,4 +1,4 @@
-/* common */
+/* css reset*/
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ html {
 
 /* navigation */
 .navbar {
-    /* border: 2px solid green; */
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +52,7 @@ html {
     background-color: transparent;
     height: 22px;
     border: none;
-    width: 40px;
+    width: 55px;
     margin: 4px 2px;
     padding: 3px;
     font-size: 1rem;
@@ -61,7 +61,7 @@ html {
 
 #src:focus {
     animation: serch;
-    animation-duration: .7s;
+    animation-duration: .6s;
     animation-fill-mode: forwards;
     transition: all;
     outline: none;
@@ -71,11 +71,11 @@ html {
 
 @keyframes serch {
     from {
-        width: 39px;
+        width: 55px;
     }
 
     to {
-        width: 89px;
+        width: 100px;
 
 
     }
@@ -124,34 +124,15 @@ html {
     padding-top: 18px;
 
 }
+#body{
+    background-color: ghostwhite;
+}
 
 #page1 p {
     padding: 10px;
     margin: 3px;
 }
 
-/* .reg{ */
-/* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-   
-
-
-} */
-/* /* .btn1
-{
-    margin: 0px 3px;
-    padding: 3px;
-    cursor: inherit;
-    height: 15px;
-    border-radius: 5px;
-border:1px solid black;
-outline: none;
-box-shadow: 3px 3px 10px grey; */
-
-/* } */
 .btn2 {
     margin: 12px 100px;
     height: 18.6px;
@@ -165,18 +146,7 @@ box-shadow: 3px 3px 10px grey; */
 
 }
 
-/* #page1::before {
-    content: "";
-    background-color: ghostwhite;
-    z-index: -1;
-    opacity: 1;
-    top: 0;
-    left: 0;
-    position: absolute;
-    height: 100%;
-    width: 100%;
 
-} */
 
 .form-box {
     display: flex;
@@ -200,7 +170,7 @@ box-shadow: 3px 3px 10px grey; */
     margin: 22px 40px;
     border-radius: 5px;
     border-radius: 5px;
-    width: 165px;
+    width: fit-content;
 }
 
 .form-items1 {
@@ -211,7 +181,7 @@ box-shadow: 3px 3px 10px grey; */
     box-shadow: 5px 3px 12px grey;
     margin: 24.1px 42px;
     border-radius: 5px;
-    width: 165px;
+    width: fit-content;
 }
 
 .it:focus {
@@ -232,8 +202,8 @@ box-shadow: 3px 3px 10px grey; */
 
 #tarea {
     display: block;
-    margin: auto;
-    padding: 0px 0.5px;
+    /* margin: 0.5px; */
+     padding: 0px 1px; 
 
 }
 
@@ -242,7 +212,7 @@ box-shadow: 3px 3px 10px grey; */
     margin: 0px 175px;
     width: 250px;
     border-radius: 33px;
-    background-color: rgb(249, 255, 255);
+    background-color: rgb(220, 243,243);
 }
 
 .enquiry {
@@ -250,7 +220,7 @@ box-shadow: 3px 3px 10px grey; */
     margin: 0px 175px;
     width: 250px;
     border-radius: 33px;
-    background-color: rgb(249, 255, 255);
+    background-color: rgb(220, 243,243);
 }
 
 /* utilityy class */
