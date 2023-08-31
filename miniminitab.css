@@ -7,7 +7,7 @@
 
 .enquiry {
     display: block;
-    margin: 20px auto;
+    margin: 23px auto;
     width: 19rem;
     background-color: rgb(220, 243,243);
 }
@@ -104,7 +104,11 @@ h5{
 }
 .form-box{
     flex-direction: column;
+    margin: 15px 0px;
 }
 .tbw{
     width: 15em;
+    }
+    footer{
+        grid-gap: 20px;
     }

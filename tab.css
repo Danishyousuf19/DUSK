@@ -7,7 +7,7 @@
 
 .enquiry {
     display: block;
-    margin: 12px auto;
+    margin: 23px auto;
     width: 28rem;
     background-color: rgb(220, 243,243);
 }
@@ -28,6 +28,7 @@
 }
 .form-box{
     flex-direction: column;
+    margin: 15px 0px;
 }
 
 #h-css {
@@ -107,4 +108,7 @@ h5{
 }
 .tbw{
 width: 25em;
+}
+footer{
+    grid-gap: 20px;
 }

@@ -2,10 +2,11 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 /* navigation */
@@ -32,7 +33,7 @@ html {
 
 
 .left img {
-    height: 80px;
+    height: 61px;
 }
 
 .navbar::before {
@@ -154,7 +155,7 @@ html {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
+margin: 20px 0px;
 }
 
 .form-box>input {
@@ -213,6 +214,7 @@ html {
     width: 250px;
     border-radius: 33px;
     background-color: rgb(220, 243,243);
+    margin-bottom: 22px;
 }
 
 .enquiry {
@@ -221,6 +223,7 @@ html {
     width: 250px;
     border-radius: 33px;
     background-color: rgb(220, 243,243);
+    margin-bottom: 22px;
 }
 
 /* utilityy class */
@@ -255,4 +258,43 @@ h5 {
     margin: 9px;
     font-size: 1.1rem;
     text-shadow: 0px 0px 4px rgb(78, 78, 78);
+}
+footer{
+    display: grid;
+    margin-top: 20px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 2fr  1fr 2fr;
+}
+footer::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    z-index: -2;
+    
+    height: 10%;
+    width: 100%;
+    display: block;
+    opacity: 0.8;
+}
+footer h5{
+    text-align: center;
+    color: white;
+    text-shadow: none;
+    
+}
+#tac a{
+    color: white;
+    font-size: 16px;
+  
+}
+#abd{
+    text-align: center;
+
+}
+#about{
+    color: white;
+    text-align: center;
 }

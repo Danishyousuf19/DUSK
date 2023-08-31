@@ -7,7 +7,7 @@
 
 .enquiry {
     display: block;
-    margin: 17px auto;
+    margin: 20px auto;
     width: 23rem;
     background-color: rgb(220, 243,243);
 }
@@ -28,6 +28,7 @@
 }
 .form-box{
     flex-direction: column;
+    margin: 10px 0px;
 }
 
 #h-css {
@@ -116,3 +117,6 @@ width: 19em;
     transition: none;
     animation: none;
 } */
+footer{
+    grid-gap: 20px;
+}
