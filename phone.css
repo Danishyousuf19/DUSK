@@ -113,3 +113,14 @@ footer{
     font-size: 12px;
   
 }
+.boxp2{
+    width: 15rem;
+    padding: 16px 7px;
+    margin: 11px 4px;
+    
+    background: linear-gradient(1deg, #79a29f94, #bef6ec);
+}
+td,th{
+   padding: 7px 2px;
+   font-size: 12px;
+}
