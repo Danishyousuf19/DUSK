@@ -1,14 +1,14 @@
 .regestration {
     display: block;
     margin: 12px auto;
-    width: 28rem;
+    width: 36rem;
     background-color: rgb(220, 243,243);
 }
 
 .enquiry {
     display: block;
     margin: 23px auto;
-    width: 28rem;
+    width: 36rem;
     background-color: rgb(220, 243,243);
 }
 
@@ -107,8 +107,11 @@ h5{
     text-shadow: 0px 0px 4px rgb(78, 78, 78);
 }
 .tbw{
-width: 25em;
+width: 25rem;
 }
 footer{
     grid-gap: 20px;
+}
+.regp4{
+    width: 36rem;
 }

@@ -134,6 +134,15 @@ td,th{
     width: 15rem;
 }
 .regp4{
-    width: 18rem;
+    width: 17rem;
+   
        background: conic-gradient(from 179deg, #97feec, #07504bd1, #b2fdef, #144945d1, #8dffeb);
+}
+.boxd{
+    justify-content: center;
+    margin: 36px;
+    width: 18rem;    box-shadow: 1px 2px 3px;
+}
+.boxi{
+    margin: 23px 16px;    box-shadow: 1px 2px 3px;
 }

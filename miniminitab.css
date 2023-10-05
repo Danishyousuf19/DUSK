@@ -1,14 +1,16 @@
 .regestration {
     display: block;
     margin: 20px auto;
-    width: 19rem;
+    width: 25rem;
     background-color: rgb(220, 243, 243);
 }
-
+.boxd{
+    width: 25rem;
+}
 .enquiry {
     display: block;
     margin: 23px auto;
-    width: 19rem;
+    width: 25rem;
     background-color: rgb(220, 243, 243);
 }
 
@@ -117,4 +119,8 @@ footer {
 }
 .boxp2{
     width: 23rem;
+}
+.tbwp4 {
+    font-size: 14px;
+    width: 21rem;
 }

@@ -1,14 +1,14 @@
 .regestration {
     display: block;
     margin: 17px auto;
-    width: 23rem;
+    width: 36rem;
     background-color: rgb(220, 243,243);
 }
 
 .enquiry {
     display: block;
     margin: 20px auto;
-    width: 23rem;
+    width: 36rem;
     background-color: rgb(220, 243,243);
 }
 
@@ -119,4 +119,8 @@ width: 19em;
 } */
 footer{
     grid-gap: 20px;
+}
+.tbwp4 {
+    font-size: 14px;
+    width: 25rem;
 }
