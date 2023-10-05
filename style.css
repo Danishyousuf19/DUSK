@@ -2,16 +2,16 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 }
 
 html {
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
 /* navigation */
 .navbar {
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@ html {
 
 
 .left img {
-    height: 61px;
+    height: 55px;
 }
 
 .navbar::before {
@@ -44,7 +44,7 @@ html {
     width: 100%;
     z-index: -1;
     opacity: .87;
-    top: -1px;
+    top: -6px;
     left: 0;
 }
 
@@ -125,8 +125,10 @@ html {
     padding-top: 18px;
 
 }
-#body{
-       background: radial-gradient(#d3fffb9e,#affbf7de);}
+
+#body {
+    background: linear-gradient(#8ef1e81c,#77bab6de,#3bb1beb8);
+}
 
 #page1 p {
     padding: 10px;
@@ -154,7 +156,7 @@ html {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-margin: 20px 0px;
+    margin: 20px 0px;
 }
 
 .form-box>input {
@@ -203,7 +205,7 @@ margin: 20px 0px;
 #tarea {
     display: block;
     /* margin: 0.5px; */
-     padding: 0px 1px; 
+    padding: 0px 1px;
 
 }
 
@@ -212,7 +214,7 @@ margin: 20px 0px;
     margin: 0px 175px;
     width: 250px;
     border-radius: 33px;
-   background: radial-gradient(#feffffbd,#affbf7d4);
+    background: radial-gradient(#feffffbd, #affbf7d4);
     margin-bottom: 22px;
 }
 
@@ -221,7 +223,7 @@ margin: 20px 0px;
     margin: 0px 175px;
     width: 250px;
     border-radius: 33px;
-   background:radial-gradient(#feffffbd,#affbf7d4);
+    background: radial-gradient(#feffffbd, #affbf7d4);
     margin-bottom: 22px;
 }
 
@@ -241,75 +243,84 @@ h5 {
     font-family: math;
 }
 
-#kalma{
+#kalma {
     text-align: center;
     font-size: 1.2rem;
     text-shadow: 0px 0px 4px rgb(78, 78, 78);
 }
 
-#reg{
+#reg {
     margin: 9px;
     font-size: 1.1rem;
     text-shadow: 0px 0px 4px rgb(78, 78, 78);
 }
 
-#fed{
+#fed {
     margin: 9px;
     font-size: 1.1rem;
     text-shadow: 0px 0px 4px rgb(78, 78, 78);
 }
-footer{
+
+footer {
     display: grid;
     margin-top: 20px;
     align-content: center;
     justify-content: center;
     align-items: center;
     justify-items: center;
-    grid-template-columns: 2fr  1fr 2fr;
+    grid-template-columns: 2fr 1fr 2fr;
 }
-footer::before{
+
+footer::before {
     content: "";
-    background-color: black;
+    background-color: #193f44;
     position: absolute;
     z-index: -2;
-    
+
     height: 50px;
     width: 100%;
     display: block;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
-footer h5{
+
+footer h5 {
     text-align: center;
     color: white;
     text-shadow: none;
-    
+
 }
-#tac a{
+
+#tac a {
     color: white;
     font-size: 16px;
-  
+
 }
-#abd{
+
+#abd {
     text-align: center;
 
 }
-#about{
+
+#about {
     color: white;
     text-align: center;
 }
-.boxp2{
+
+.boxp2 {
     display: flex;
     /* height: 10rem; */
     width: 34rem;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     padding: 16px;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
     margin: 12px;
+    box-shadow: 6px 8px 9px gray;
     background: linear-gradient(1deg, #72a8a473, #c3f7ee);
 }
-.cont{
+
+.cont {
     display: grid;
     grid-gap: 8px;
     align-content: center;
@@ -317,32 +328,65 @@ footer h5{
     align-items: center;
     justify-items: center;
 }
-#fpt{
+
+#fpt {
     margin: 12px 0px;
 }
-table,td,th{
-    border: 2px ;
+
+table,
+td,
+th {
+    border: 2px;
     border-style: solid;
     margin: 10px;
     border-collapse: collapse;
     width: inherit;
-    
+
 }
-td,th{
-  
+
+td,
+th {
+
     padding: 7px;
 }
-td{
+
+td {
     background-color: #e2fffa;
 }
-th{
-    background-color:#c3f7ee;
+
+th {
+    background-color: #c3f7ee;
 }
+
 #page2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 
+
+}
+
+#page3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.boxp3 {
+    background: conic-gradient(from 350deg, #c3f7ee, #208a82d1, #c3f7ee, #208a82d1, #b4fff2);
+}
+.tbwp4{
+    font-size: 14px;
+    width: 400px;
+}
+.regp4{
+    width: 500px;
+       background: conic-gradient(from 179deg, #97feec, #07504bd1, #b2fdef, #144945d1, #8dffeb);
+}
+.btnp4{
+    margin:12px auto;
+    
 }

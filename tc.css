@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    
+}
+#body{
+    background: radial-gradient(#8ef1e81c,#affbf7de);}
+
+.box{
+    margin: 40px 20px;
+   
+    border-radius: 22px;
+    background: conic-gradient( from 350deg ,#c3f7ee,#208a82d1, #c3f7ee,#208a82d1,#b4fff2);
+    box-shadow: 2px 2px 3px;
+}
+p{padding-top: 12px;
+    margin: 25px;
+    margin-top: 25px;
+    font-weight: bolder;
+    font-family: monospace;
+}
+h3{
+    margin-top: 22px;
+    text-align: center;
+    text-shadow: 1px 1px 2px ;
+    font-family: sans-serif;
+}
