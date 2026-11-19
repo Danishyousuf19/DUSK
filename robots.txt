@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://danishyousuf19.github.io/DUSK/sitemap.xml
